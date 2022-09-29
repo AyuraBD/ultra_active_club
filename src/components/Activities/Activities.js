@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Player from '../Player/Player';
 import './../../fakeData/players';
 import './Activities.css';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const Activities = () => {
     const [players, setPlayers] = useState([]);
@@ -15,8 +17,16 @@ const Activities = () => {
     const addBreakTime = (player) =>{
         const newTime = parseInt(time + player.duration);
         setTime(newTime);
-       
     }
+    const ten = 10;
+    const twenty = 20;
+    const thirty = 30;
+    const fourty = 40;
+
+    const one = () =>{
+        return 10;
+    }
+    const notify = () => toast("Practice Complited!");
 
     return(
         <div className="players-container">
@@ -31,17 +41,17 @@ const Activities = () => {
             </div>
             <div className='player-activities'>
                 <div className="name">
-                    <h2>Abdullah Al Mamun</h2>
+                    <h2>Abdullah Mamun</h2>
                     <p>Chattogram, Bangladesh</p>
                 </div>
                 
                 <div className='add-break'>
                     <h3>Add a break</h3>
                     <div className='addBreak'>
-                        <span>10</span>
-                        <span>20</span>
-                        <span>30</span>
-                        <span>40</span>
+                        <span>{ten}</span>
+                        <span>{twenty}</span>
+                        <span>{thirty}</span>
+                        <span>{fourty}</span>
                     </div>
                     
                 </div>
@@ -57,7 +67,8 @@ const Activities = () => {
                     </div>
                 </div>
                 <div>
-                    <button className='completed-btn'>Activity Complited</button>
+                    <button onClick={notify} className='completed-btn'>Activity Complited</button>
+                    <ToastContainer></ToastContainer>
                 </div>
                     
             </div>
