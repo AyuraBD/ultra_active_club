@@ -9,16 +9,13 @@ const Activities = () => {
     useEffect(() =>{
         fetch('players.json')
         .then(res => res.json())
-        .then(data => {
-            console.log(data)
-            setPlayers(data)})
+        .then(data => setPlayers(data))
     },[])
 
     const addBreakTime = (player) =>{
-        console.log("I love you", player.duration)
         const newTime = parseInt(time + player.duration);
         setTime(newTime);
-        console.log(newTime);
+       
     }
 
     return(
