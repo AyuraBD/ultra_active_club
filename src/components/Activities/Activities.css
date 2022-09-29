@@ -7,7 +7,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:40px;
-    width:320px;
 }
 .player-activities{
     background-color: rgb(183, 219, 219);
@@ -69,6 +68,9 @@
 }
 .break-time p{
     margin:0px;
+}
+.completed-btn{
+    margin-top:50px;
 }
 @media screen and (max-width:1000px) {
     .players{

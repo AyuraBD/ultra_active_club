@@ -12,6 +12,12 @@ const Activities = () => {
             console.log(data)
             setPlayers(data)})
     },[])
+
+    const addBreakTime = () =>{
+        const ten = 10;
+        const twenty = 20;
+        const thirty = 30;
+    }
     return(
         <div className="players-container">
             <div className="players">
@@ -27,11 +33,16 @@ const Activities = () => {
                     <h2>Abdullah Al Mamun</h2>
                     <p>Chattogram, Bangladesh</p>
                 </div>
-                <div className='addBreak'>
-                    <span>10</span>
-                    <span>20</span>
-                    <span>30</span>
-                    <span>40</span>
+                
+                <div className='add-break'>
+                    <h3>Add a break</h3>
+                    <div className='addBreak'>
+                        <span>10</span>
+                        <span>20</span>
+                        <span>30</span>
+                        <span>40</span>
+                    </div>
+                    
                 </div>
                 <div className="practice-details">
                     <h4>Practice details</h4>
@@ -43,6 +54,9 @@ const Activities = () => {
                         <h5>Break time</h5>
                         <p><span>200</span> Minutes</p>
                     </div>
+                </div>
+                <div>
+                    <button className='completed-btn'>Activity Complited</button>
                 </div>
                     
             </div>

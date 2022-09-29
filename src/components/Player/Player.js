@@ -11,7 +11,7 @@ const Player = (props) => {
 				<div className="player-info">
 					<h3>{activity}</h3>
 					<p>{quote}</p>
-					<p>{duration} Minutes</p>
+					<p><b>Practice Time:</b> {duration} Minutes</p>
 				</div>
 				
 				<button>Add to list</button>
