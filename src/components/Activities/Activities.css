@@ -44,7 +44,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(174, 173, 173);
     padding: 20px 10px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -59,7 +59,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(191, 188, 188);
     padding: 20px 10px;
     border-radius: 10px;
     margin: 0px;
