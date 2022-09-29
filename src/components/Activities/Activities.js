@@ -23,7 +23,10 @@ const Activities = () => {
                 }
             </div>
             <div className='player-activities'>
-                <h2>Abdullah Al Mamun</h2>
+                <div className="name">
+                    <h2>Abdullah Al Mamun</h2>
+                    <p>Chattogram, Bangladesh</p>
+                </div>
                 <div className='addBreak'>
                     <span>10</span>
                     <span>20</span>
@@ -34,11 +37,11 @@ const Activities = () => {
                     <h4>Practice details</h4>
                     <div className="practice-info">
                         <h5>Practice time</h5>
-                        <p><span>200</span>seconds</p>
+                        <p><span>200</span> Minutes</p>
                     </div>
                     <div className="break-time">
                         <h5>Break time</h5>
-                        <p><span>200</span>seconds</p>
+                        <p><span>200</span> Minutes</p>
                     </div>
                 </div>
                     

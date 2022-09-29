@@ -17,6 +17,12 @@
     top:0;
     right:0;
 }
+.player-activities .name{
+    margin-bottom:40px;
+}
+.player-activities .name h2{
+    margin-bottom: 10px;
+}
 .player-activities .addBreak{
     display: flex;
     justify-content: center;
@@ -32,6 +38,37 @@
     border-radius: 50%;
     margin:0px 5px;
     font-size:16px;
+    cursor:pointer;
+}
+.practice-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.practice-info h5{
+    margin:0px;
+}
+.practice-info p{
+    margin:0px;
+}
+.break-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 0px;
+}
+.break-time h5{
+    margin:0px;
+}
+.break-time p{
+    margin:0px;
 }
 @media screen and (max-width:1000px) {
     .players{
