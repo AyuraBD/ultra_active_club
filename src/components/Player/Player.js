@@ -2,7 +2,8 @@ import React from 'react';
 import './Player.css';
 
 const Player = (props) => {
-	const { id, pic, activity, quote, duration } = props.player;
+	const { id, pic, activity, quote, duration} = props.player;
+	const {addBreakTime} = props;
 	return (
 		<div className='player'>
 			<div className="img">
@@ -13,8 +14,7 @@ const Player = (props) => {
 					<p>{quote}</p>
 					<p><b>Practice Time:</b> {duration} Minutes</p>
 				</div>
-				
-				<button>Add to list</button>
+				<button onClick={() =>addBreakTime(props.player)}>Add to list</button>
 			</div>
 		</div>
 	);

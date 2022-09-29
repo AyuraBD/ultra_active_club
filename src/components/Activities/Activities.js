@@ -13,11 +13,10 @@ const Activities = () => {
             setPlayers(data)})
     },[])
 
-    const addBreakTime = () =>{
-        const ten = 10;
-        const twenty = 20;
-        const thirty = 30;
+    const addBreakTime = (player) =>{
+        console.log("I love you", player)
     }
+
     return(
         <div className="players-container">
             <div className="players">
@@ -25,6 +24,7 @@ const Activities = () => {
                     players.map(player => <Player
                         key={player.id}
                         player={player}
+                        addBreakTime={addBreakTime}
                     ></Player>)
                 }
             </div>
@@ -48,11 +48,11 @@ const Activities = () => {
                     <h4>Practice details</h4>
                     <div className="practice-info">
                         <h5>Practice time</h5>
-                        <p><span>200</span> Minutes</p>
+                        <p><span>100</span> Minutes</p>
                     </div>
                     <div className="break-time">
                         <h5>Break time</h5>
-                        <p><span>200</span> Minutes</p>
+                        <p><span>20</span> Minutes</p>
                     </div>
                 </div>
                 <div>
