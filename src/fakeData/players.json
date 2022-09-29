@@ -1,0 +1,44 @@
+[
+  {
+    "id": "17",
+    "pic": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "activity": "Reading",
+    "quote": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "duration": 21
+  },
+  {
+    "id": "18",
+    "pic": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_1035462384_395932.jpg",
+    "activity": "Writing",
+    "quote": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "duration": 16
+  },
+  {
+    "id": "19",
+    "pic": "https://iotcdn.oss-ap-southeast-1.aliyuncs.com/2020-11/detailsp%20%281%29%20%281%29.jpg",
+    "activity": "Speaking",
+    "quote": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "duration": 18
+  },
+  {
+    "id": "20",
+    "pic": "https://static01.nyt.com/images/2019/04/06/smarter-living/sl-better-listener-guide-slide-5UDQ/sl-better-listener-guide-slide-5UDQ-jumbo.jpg",
+    "activity": "Listening",
+    "quote": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "duration": 14
+  },
+  {
+    "id": "21",
+    "pic": "https://www.scienceofpeople.com/wp-content/uploads/2014/09/1314878_HowtoMakeFriendsGuideImages1250x650V11_030322.jpg",
+    "activity": "Conversation",
+    "quote": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "duration": 20
+  },
+  {
+    "id": "22",
+    "pic": "https://media.edutopia.org/styles/responsive_2880px_16x9/s3/masters/d7_images/cover_media/finley-169hero-questioning-shutterstock.jpg",
+    "activity": "questioning",
+    "quote": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "duration": 15
+  }
+]

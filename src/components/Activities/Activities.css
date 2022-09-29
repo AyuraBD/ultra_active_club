@@ -1,0 +1,42 @@
+.players-container{
+    display: flex;
+    justify-content: space-between;
+}
+.players{
+    margin:30px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:40px;
+    width:320px;
+}
+.player-activities{
+    background-color: rgb(183, 219, 219);
+    padding:20px 40px;
+    height:100vh;
+    position: sticky;
+    top:0;
+    right:0;
+}
+.player-activities .addBreak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+.addBreak span{
+    padding:8px 10px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    margin:0px 5px;
+    font-size:16px;
+}
+@media screen and (max-width:1000px) {
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        gap:40px;
+        width:320px;
+    }
+}
