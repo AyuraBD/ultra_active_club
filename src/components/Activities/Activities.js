@@ -5,6 +5,7 @@ import './Activities.css';
 
 const Activities = () => {
     const [players, setPlayers] = useState([]);
+    const [time, setTime] = useState([]);
     useEffect(() =>{
         fetch('players.json')
         .then(res => res.json())
@@ -14,7 +15,10 @@ const Activities = () => {
     },[])
 
     const addBreakTime = (player) =>{
-        console.log("I love you", player)
+        console.log("I love you", player.duration)
+        const newTime = parseInt(time + player.duration);
+        setTime(newTime);
+        console.log(newTime);
     }
 
     return(
@@ -48,7 +52,7 @@ const Activities = () => {
                     <h4>Practice details</h4>
                     <div className="practice-info">
                         <h5>Practice time</h5>
-                        <p><span>100</span> Minutes</p>
+                        <p><span>{time}</span> Minutes</p>
                     </div>
                     <div className="break-time">
                         <h5>Break time</h5>
